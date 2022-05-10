@@ -1,0 +1,142 @@
+/* generics */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: lightgray;
+}
+
+/* header */
+.header-container{    
+    margin: 0 auto;
+    width: 70vw;
+    background-color: white;
+}
+
+h1{
+    vertical-align: middle;
+    display:inline;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+#logo{
+    vertical-align: middle;
+    margin: 10px 0 10px 20px;
+}
+
+/* main section */
+
+.container{
+    border-radius: 15px 15px;
+    width:50%;
+    margin: 50px auto 0;
+    background-color: white;
+}
+
+/* button bar */
+.buttons-bar{
+    
+    border-bottom: 2px solid lightgray;
+}
+
+button{
+    border-radius: 10px;
+    color:white;
+    font-size: 16px;
+    border: none;
+    padding: 8px 17px;
+    margin: 15px 5px 5px 5px;
+}
+
+#add-task{
+    margin-left:100px;
+    background-color: dodgerblue;
+    border: 2px solid dodgerblue;
+}
+
+#add-section{
+    background-color: white;
+    border: 2px solid lightgray;
+    color: lightgray;
+}
+
+/* list section */
+
+.list{
+    padding-bottom: 100px;
+}
+
+.new-task{
+    list-style-type: none;
+    margin: 40px 100px;
+}
+
+.check{
+    font-weight: bold;
+    color: green;
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    text-align: center;
+    border: 2px solid green;
+    border-radius: 50%;
+}
+
+.cross{
+    font-weight: bold;
+    color: red;
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    text-align: center;
+    border: 2px solid red;
+    border-radius: 50%;
+}
+
+h3{
+    display: inline-block;
+    line-height: 40px;
+    margin-left: 10px;
+    font-weight: 400;
+}
+
+/* etichettte */
+.label{
+    color: white;
+    font-size: 12px;
+    display: inline-block;
+    margin-left: 15px;
+    background-color: green;
+    border-radius: 20px;
+    line-height: 25px;
+    padding: 3px 20px;
+}
+
+.editorial{
+    background-color: dodgerblue;
+}
+
+.goals{
+    background-color: purple;
+}
+
+.recruiting{
+    background-color: lightgreen;
+}
+
+.mobile{
+    background-color: orange;
+}
+
+.website{
+    background-color: pink;
+}
+
+.sales{    
+    background-color: green;    
+}
