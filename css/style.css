@@ -68,3 +68,37 @@ button{
 .list{
     height: 1000px;
 }
+
+.new-task{
+    list-style-type: none;
+    margin: 40px 100px;
+}
+
+.check{
+    font-weight: bold;
+    color: green;
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    text-align: center;
+    border: 2px solid green;
+    border-radius: 50%;
+}
+
+h3{
+    display: inline-block;
+    line-height: 40px;
+    margin-left: 10px;
+    font-weight: 400;
+}
+
+.editorial{
+    color: white;
+    font-size: 12px;
+    display: inline-block;
+    margin-left: 15px;
+    background-color: dodgerblue;
+    border-radius: 20px;
+    line-height: 25px;
+    padding: 3px 20px;
+}
