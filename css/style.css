@@ -1,5 +1,31 @@
+/* generics */
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
+
+body{
+    background-color: lightgray;
+}
+
+/* header */
+.header-container{
+    margin: 0 auto;
+    width: 70vw;
+    background-color: white;
+}
+
+h1{
+    vertical-align: middle;
+    display:inline;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+#logo{
+    vertical-align: middle;
+    margin: 10px 0 10px 20px;
+}
+
