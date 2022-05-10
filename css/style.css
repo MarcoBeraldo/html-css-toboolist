@@ -29,3 +29,42 @@ h1{
     margin: 10px 0 10px 20px;
 }
 
+/* main section */
+
+.container{
+    width:50%;
+    margin: 50px auto 0;
+    background-color: white;
+}
+
+/* button bar */
+.buttons-bar{
+    border-bottom: 2px solid lightgray;
+}
+
+button{
+    border-radius: 10px;
+    color:white;
+    font-size: 16px;
+    border: none;
+    padding: 8px 17px;
+    margin: 15px 5px 5px 5px;
+}
+
+#add-task{
+    margin-left:100px;
+    background-color: dodgerblue;
+    border: 2px solid dodgerblue;
+}
+
+#add-section{
+    background-color: white;
+    border: 2px solid lightgray;
+    color: lightgray;
+}
+
+/* list section */
+
+.list{
+    height: 1000px;
+}
