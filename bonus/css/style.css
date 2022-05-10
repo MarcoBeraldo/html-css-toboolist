@@ -76,6 +76,11 @@ button{
     margin: 40px 100px;
 }
 
+.task{
+    list-style-type: none;
+    margin-bottom: 40px;
+}
+
 .check{
     font-weight: bold;
     color: green;
